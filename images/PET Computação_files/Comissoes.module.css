@@ -1,0 +1,151 @@
+/*---------Fundos---------*/
+.fundoRoxoEscuro{
+    background-color: #181433;
+}
+.fundoRoxoClaro{
+    background-color: #342F56;
+}
+/*---------Palavra comissão sublinhada no título---------*/
+
+.comissoes .titulo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.comissoes .titulo h1{ 
+    display:inline;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+
+}
+/*---------imagem esq e texto dir---------*/
+
+.comissoes .imagem-esq img{
+    width: 418px;
+    height: 311px;
+    border-radius: 50px;
+    float: left;
+}
+
+.comissoes .imagem-esq-box{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-bottom: 94px;
+
+}
+
+.comissoes .texto-dir{
+    width: 50%;
+    float: right;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.comissoes .texto-dir h2{
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: white;
+
+}
+
+.comissoes .texto-dir p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*---------imagem dir e texto esq---------*/
+.comissoes .imagem-dir img{
+    width: 418px;
+    height: 311px;
+    border-radius: 50px;
+    float: right;
+}
+
+.comissoes .imagem-dir-box{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    margin-bottom: 94px;
+}
+.comissoes .texto-esq{
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+}
+.comissoes .texto-esq h2{
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: white;
+}
+.comissoes .texto-esq p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+} 
+
+/*MEDIA QUERIS*/
+@media (max-width: 980px) {
+    .comissoes .imagem-dir img{
+        width: 334px;
+        height: 248px;
+    }
+    .comissoes .imagem-esq img{
+        width: 334px;
+        height: 248px;
+    }
+    .comissoes .texto-esq h2{
+        font-size: 48px;
+    }
+    .comissoes .texto-dir h2{
+        font-size: 48px;
+    }
+    .comissoes .texto-esq p{
+        font-size: 18px;
+    }
+    .comissoes .texto-dir p{
+        font-size: 18px;
+    }
+  }
+  @media (max-width: 768.9px){
+    .comissoes .imagem-dir img{
+        width: 301px;
+        height: 224px;
+    }
+    .comissoes .imagem-esq img{
+        width: 301px;
+        height: 224px;
+    }
+    .comissoes .texto-esq h2{
+        font-size: 40px;
+    }
+    .comissoes .texto-dir h2{
+        font-size: 40px;
+    }
+    .comissoes .texto-esq p{
+        font-size: 14px;
+    }
+    .comissoes .texto-dir p{
+        font-size: 14px;
+    }
+  }
+

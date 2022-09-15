@@ -1,0 +1,32 @@
+.box-instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.instagram-text {
+  font-family: "Red Hat Text";
+  margin-top: 15%;
+}
+
+.instagram-text h2 {
+  font-size: 4rem;
+  font-weight: lighter;
+  color: black;
+}
+
+.instagram-text p {
+  font-size: 2rem;
+  color: black;
+}
+
+.box-footer {
+  width: 100%;
+  background-color: blue;
+}
+
+.thanks img{
+  width: 15%;
+}

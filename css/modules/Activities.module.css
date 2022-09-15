@@ -1,0 +1,104 @@
+  
+  @media (min-width: 968.9px) {
+    #cardsActivities{
+      margin-bottom: 20px;
+    }
+
+    .cardActivityLeft, .cardActivityRight {
+      display: flex;
+    }
+    
+    #cardsActivities h1 {
+      font-family: 'Red Hat Text', sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      color: #000000;
+      text-align: center;
+    }
+
+    #sectionActivities {
+      padding: 50px;
+    }
+    #sectionActivities hr {
+      width: 100%;
+    }
+
+    .textsTop p{
+      text-align: center;
+    }
+
+    .buttonDiv{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 25px 0 25px 0;
+    }
+    
+    .texts {
+      margin-top: 20px;
+      font-size: 24px;
+    } 
+
+    .cardActivityRight .texts {
+      text-align: right;
+    }
+
+    .cardActivityLeft .texts {
+      text-align: left;
+    }
+
+    .cardActivityRight .texts h1,
+    .cardActivityLeft .texts h1{
+      font-weight: bold;
+    }
+
+    .imageActivity img{
+      width: 600px;
+    }
+  }
+
+@media (max-width: 968.9px) {
+  #sectionActivities {
+    padding: 50px;
+  }
+  #sectionActivities hr {
+    width: 100%;
+  }
+  
+  .cardActivityRight .texts h1,
+  .cardActivityLeft .texts h1{
+    font-weight: bold;
+  }
+
+  .cardActivityLeft, .cardActivityRight {
+    display: inherit;
+  }
+
+  .textsTop p{
+    text-align: center;
+  }
+
+  .textsTop h1{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .buttonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+  }
+  .texts {
+    font-size: 16px;
+  } 
+  .imageActivity img{
+    width: 300px;
+  }
+
+  .imageActivity {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+}

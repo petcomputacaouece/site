@@ -1,0 +1,163 @@
+.font-footer {
+  font-family: "Red Hat Text";
+}
+
+#box-instagram {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.instagram-photo img{
+  width: 30rem;
+}
+
+.instagram-text {
+  margin-top: 15%;
+}
+
+.instagram-text h2 {
+  font-size: 4rem;
+  font-weight: lighter;
+  color: black;
+}
+
+.instagram-text p {
+  font-size: 2rem;
+  color: black;
+}
+
+.box-footer {
+  width: 100%;
+  margin-top: -5%;
+  background-color: #181433;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8% 0 0 0;
+}
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thanks h2{
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.thanks img{
+  width: 10rem;
+}
+
+.email-insta-face {
+  padding-bottom: 5%;
+}
+
+.email-insta-face h2{
+  color: #72619F;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.email-insta-face p{
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.copyright p{
+  color: #72619F;
+  margin-bottom: 0;
+  padding: 2% 0;
+  text-align: center;
+}
+
+.copyright a {
+  color: #72619F;
+  margin-bottom: 0;
+}
+
+@media(max-width: 768px) {
+  .instagram-photo img{
+    width: 20rem;
+  }
+
+  .instagram-text h2 {
+    font-size: 3.5rem;
+  }
+
+  .instagram-text p {
+    font-size: 1.75rem;
+  }
+
+  .footer-text {
+    flex-direction: column;
+  }
+
+  .thanks {
+    margin-bottom: 10%;
+  }
+
+  .thanks h2{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .thanks img{
+    width: 8rem;
+  }
+
+  .social-media {
+    text-align: center;
+  }
+
+  .email-insta-face h2{
+    font-size: 1.8rem;
+  }
+}
+
+@media(max-width: 540px) {
+  .instagram-photo img{
+    width: 18rem;
+  }
+
+  .instagram-text h2 {
+    font-size: 2.7rem;
+  }
+
+  .instagram-text p {
+    font-size: 1.4rem;
+  }
+
+  .email-insta-face h2{
+    font-size: 1.5rem;
+  }
+
+  .email-insta-face p{
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 450px) {
+  .instagram-photo img{
+    width: 14rem;
+  }
+
+  .instagram-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .instagram-text p {
+    font-size: 1rem;
+  }
+}

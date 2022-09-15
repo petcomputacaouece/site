@@ -1,0 +1,281 @@
+/* Fundo */
+
+.fundoCinza {
+    background-color: #F8F8FB;
+    border-radius: 50px;
+    margin-top: 64px;
+    padding: 0 20px 0 20px;
+}
+
+.line {
+    width: 80%;
+    margin: auto;
+}
+
+/* Título principal */
+
+.pilares .titulo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pilares .titulo h1 {
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+}
+
+/* Conteúdo e Itens */
+
+.pilares-item-esquerda {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilares-item-direita {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagens */
+
+.pilares img {
+    border-radius: 15%;
+    width: 418px;
+    height: 311px;
+}
+
+/* Texto de cada pilar */
+
+.pilares-conteudo .pilares-item-esquerda .pilares-item-texto {
+    margin: 0 3.8rem 0 1.4rem;
+}
+
+.pilares-conteudo .pilares-item-direita .pilares-item-texto {
+    margin: 0 1.4rem 0 3.8rem;
+}
+
+.pilares-conteudo .pilares-item-esquerda .pilares-item-texto h2,
+.pilares-conteudo .pilares-item-direita .pilares-item-texto h2 {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #000000;
+}
+
+.pilares-conteudo .pilares-item-esquerda .pilares-item-texto p,
+.pilares-conteudo .pilares-item-direita .pilares-item-texto p {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    text-align: justify;
+}
+
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 980px) {
+
+    
+
+    .pilares .pilares-conteudo .pilares-item-esquerda {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pilares .pilares-conteudo .pilares-item-direita {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pilares img {
+        width: 334px;
+        height: 248px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto {
+        margin: 0 1rem 0 1rem;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto h2,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto h2 {
+        font-size: 48px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto p,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto p {
+        font-size: 18px;
+    }
+  }
+
+  @media (max-width: 768.9px){
+    .pilares .pilares-conteudo .pilares-item-esquerda {
+        display: initial;
+    }
+
+    .pilares .pilares-conteudo .pilares-item-direita {
+        display: initial;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .imagem-esquerda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .imagem-direita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .pilares img {
+        width: 367px;
+        height: 298px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto {
+        margin: 0 1rem 0 1rem;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto {
+        margin: 0 1rem 0 1rem;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto h2,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto p,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto p {
+        font-size: 18px;
+    }
+  }
+
+  @media (max-width: 576.9px){
+    .fundoCinza {
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .imagem-esquerda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .imagem-direita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .pilares .pilares-conteudo .pilares-item-esquerda {
+        display: initial;
+    }
+
+    .pilares .pilares-conteudo .pilares-item-direita {
+        display: initial;
+    }
+
+    .pilares img {
+        width: 314px;
+        height: 259px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto {
+        margin: 0 2rem 0 2rem;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto h2,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto p,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto p {
+        font-size: 18px;
+    }
+  }
+
+  @media (max-width: 450.9px){
+    .fundoCinza {
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+
+    .pilares .pilares-conteudo .pilares-item-esquerda {
+        display: initial;
+    }
+
+    .pilares .pilares-conteudo .pilares-item-direita {
+        display: initial;
+    }
+
+    .pilares img {
+        width: 265px;
+        height: 227px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .imagem-esquerda {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .imagem-direita {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto {
+        margin: 0 2rem 0 2rem;
+    }
+    
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto {
+        margin: 0 2rem 0 2rem;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto h2,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto h2 {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pilares-conteudo .pilares-item-esquerda .pilares-item-texto p,
+    .pilares-conteudo .pilares-item-direita .pilares-item-texto p {
+        font-size: 18px;
+    }
+  }
